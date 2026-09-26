@@ -10,69 +10,70 @@ const EN = {
   "nav.process": "Process",
   "nav.contacts": "Contacts",
 
-  "hero.eyebrow": "Partnership proposal",
-  "hero.name": "丝路法律联盟",
-  "hero.lead": "Kazakh counsel for Chinese business",
+  "hero.eyebrow": "Partnership proposal for law firms",
+  "hero.name": "Юридический альянс «Шёлковый путь»",
+  "hero.lead": "Your Kazakhstan desk — licensed local counsel for foreign law firms and their clients",
   "hero.meta": "Almaty · Astana, Republic of Kazakhstan",
   "hero.cta1": "Get in touch",
   "hero.cta2": "Meet the team",
 
   "market.eyebrow": "Market",
   "market.title": "The market we would serve together",
-  "market.s1": "legal entities with Chinese participation registered in Kazakhstan",
-  "market.s1d": "as at 1 May 2025",
-  "market.s2v": "3.5×",
-  "market.s2": "growth in that number since 2019",
-  "market.s3v": "$30.1 bn",
-  "market.s3": "bilateral China–Kazakhstan trade turnover",
-  "market.s3d": "2023",
-  "market.s4v": "€11.4 bn",
-  "market.s4": "agreements signed at the bilateral summit",
-  "market.s4d": "July 2026",
-  "market.claim": "Every one of those companies needs a company registered, staff admitted, contracts enforced and disputes defended — under Kazakh law, in Kazakh and Russian, by lawyers licensed in Kazakhstan.",
-  "market.src": "Sources: Times of Central Asia (Chinese-participation entities, trade); Euronews, July 2026 (summit agreements).",
+  "market.s1": "legal entities with foreign participation registered in Kazakhstan",
+  "market.s1d": "1 Dec 2025",
+  "market.s2v": "+7.5%",
+  "market.s2": "annual growth in foreign-owned entities and branches",
+  "market.s2d": "Dec 2024 → Dec 2025",
+  "market.s3v": "$20.5 bn",
+  "market.s3": "foreign direct investment inflow, +14.4% year on year",
+  "market.s3d": "2025",
+  "market.s4v": "103",
+  "market.s4": "investment agreements and contracts signed by the state",
+  "market.s4d": "2025",
+  "market.claim": "Every one of those companies — from Europe, the Gulf, Türkiye, Asia or the Americas — needs a company registered, staff admitted, contracts enforced and disputes defended under Kazakh law, in Kazakh and Russian, by lawyers licensed in Kazakhstan.",
+  "market.src": "Sources: Bureau of National Statistics of the RK (entities, 1 Dec 2025); Investment Committee, MFA RK via Kazinform (FDI and agreements, 2025).",
 
   "needs.eyebrow": "Client needs",
-  "needs.title": "What a Chinese client needs on the ground",
+  "needs.title": "What a foreign client needs on the ground",
   "needs.1t": "Court representation by a licensed advocate",
   "needs.1d": "Only a Kazakhstan-licensed advocate may act as defence counsel in criminal proceedings and represent a party at every judicial instance.",
   "needs.2t": "Work permits and visas before staff arrive",
-  "needs.2d": "Foreign-specialist permits, business-immigrant and investor visas, migration-service notifications, IIN for non-residents.",
+  "needs.2d": "Foreign-specialist permits, business-immigrant and investor visas, migration notifications, IIN for non-residents.",
   "needs.3t": "A structure that survives audit",
   "needs.3d": "TOO or AIFC entity, BIN, tax regime, bank account, corporate documents drafted to Kazakh statutory form.",
   "needs.4t": "Filings and hearings in Kazakh and Russian",
-  "needs.4d": "State bodies and courts accept documents only in the state languages. Translation is not enough — pleadings must be drafted natively.",
+  "needs.4d": "State bodies and courts accept documents only in Kazakh or Russian — pleadings must be drafted natively, not translated.",
   "needs.5t": "Bookkeeping and tax filings from month one",
-  "needs.5d": "Accounts kept to Kazakh standards, tax returns, e-invoices and the virtual warehouse, payroll, and reporting to the state bodies.",
-  "needs.quote": "Cross-border deals are won in Beijing. They are executed — or lost — in Kazakh registries, ministries and courtrooms.",
+  "needs.5d": "Kazakh-standard accounts, tax returns, e-invoices and virtual warehouse, payroll, state reporting.",
+  "needs.quote": "Cross-border deals are won in London, Dubai, Istanbul or Beijing. They are executed — or lost — in Kazakh registries, ministries and courtrooms.",
   "needs.quoteEnd": "That is the half we cover.",
 
   "team.eyebrow": "Team",
-  "team.title": "Three lawyers and an accountant — one point of contact",
+  "team.title": "Three lawyers and an accountant — one point of entry",
   "team.more": "Credentials & track record",
-  "team.note": "Each specialist practises independently — together they cover court, migration, corporate and accounting work under a single agreement.",
+  "team.note": "Each specialist practises independently; together they cover litigation, migration, corporate and accounting work under one agreement.",
 
   "p.ryspekova.short": "Bibigul Ryspekova",
   "p.ryspekova.full": "Bibigul Ryspekova",
   "p.ryspekova.role": "Litigation & Criminal Defence",
-  "p.ryspekova.meta": "Licensed advocate · former judge<br>29 years in law · Almaty<br>Practising across the Republic of Kazakhstan",
+  "p.ryspekova.meta": "Licensed advocate · former judge<br>29 years in law · Almaty",
   "p.tyrtykayeva.short": "Saya Tyrtykayeva",
   "p.tyrtykayeva.full": "Saya Tyrtykayeva",
   "p.tyrtykayeva.role": "Corporate, Banking & Finance",
-  "p.tyrtykayeva.meta": "Head of legal, banks & holdings<br>24 years in law · Astana<br>Practising across the Republic of Kazakhstan",
+  "p.tyrtykayeva.meta": "Head of legal at banks and holdings<br>24 years · Astana",
   "p.zhundibayeva.short": "Aliya Zhundibayeva",
   "p.zhundibayeva.full": "Aliya Zhundibayeva",
   "p.zhundibayeva.role": "Migration & Corporate Setup",
-  "p.zhundibayeva.meta": "Visas, work permits, company formation<br>26 years in law · Astana<br>Practising across the Republic of Kazakhstan",
+  "p.zhundibayeva.meta": "Visas, work permits, company formation<br>26 years · Astana",
   "p.bulambayeva.short": "Aigul Bulambayeva",
   "p.bulambayeva.full": "Aigul Bulambayeva",
   "p.bulambayeva.role": "Accounting & Tax",
-  "p.bulambayeva.meta": "Certified Professional Accountant of Kazakhstan<br>since 2008 · Astana<br>Practising across the Republic of Kazakhstan",
+  "p.bulambayeva.meta": "Certified professional accountant<br>since 2008 · Astana",
 
   "services.eyebrow": "Services",
   "services.title": "One integrated offering",
   "services.1t": "Market entry & company setup",
-  "services.1d": "TOO and AIFC entities, BIN, tax regime selection, corporate documents, bank account support, branches.",
+  "services.1d": "TOO and AIFC entities, BIN, tax regime, corporate documents, bank account, branches and representative offices.",
   "services.2t": "Migration & work permits",
   "services.2d": "Foreign-specialist permits, business-immigrant and investor visas, migration notifications, IIN, invitations.",
   "services.3t": "Contracts & transactions",
@@ -86,18 +87,18 @@ const EN = {
   "services.7t": "Payroll & HR records",
   "services.7d": "Payroll, payroll taxes and contributions, HR documentation, reporting on foreign employees.",
   "services.8t": "Ongoing support",
-  "services.8d": "Retainer for the Kazakh entity: day-to-day advice, corporate calendar, financial and statistical reporting.",
+  "services.8d": "Retainer for the client's Kazakh company: day-to-day advice, corporate calendar, financial and statistical reporting.",
 
   "coop.eyebrow": "For partner firms",
   "coop.title": "Proposed cooperation model",
   "coop.1t": "Referral partnership",
-  "coop.1d": "Kazakhstan mandates are referred to us; we act as Kazakh counsel of record, under our own licences and professional insurance.",
-  "coop.2t": "Co-counsel on cross-border work",
-  "coop.2d": "PRC counsel leads PRC law, we lead Kazakh law. One joint work product, one timetable, one bilingual report to the client.",
+  "coop.1d": "Your clients with Kazakh matters are referred to us; we act as Kazakh counsel of record under our own licences and professional liability.",
+  "coop.2t": "Cross-border co-counsel",
+  "coop.2d": "You lead your home law, we lead Kazakh law. One joint work product, one timetable, one report to the client.",
   "coop.3t": "Reciprocity",
-  "coop.3d": "Kazakh clients of ours with PRC matters are referred to PRC counsel. We would consider mutual exclusivity for a defined initial term.",
+  "coop.3d": "Our Kazakh clients with matters in your jurisdiction are referred to you. Open to mutual exclusivity for a defined initial term.",
   "coop.4t": "Commercial terms",
-  "coop.4d": "To be agreed: a referral fee on introduced mandates, or direct engagement on an agreed rate card. The client is never charged twice for the same work.",
+  "coop.4d": "To be agreed: a referral fee on introduced mandates, or direct engagement on an agreed rate card. The client is never charged twice.",
   "coop.note": "We are open to any partnership structure — including an exclusive Kazakhstan desk operating under a co-branded name.",
 
   "process.eyebrow": "Process",
@@ -112,7 +113,7 @@ const EN = {
   "process.3d": "Scoping memo, timetable and fee proposal in English.",
   "process.3w": "3 days",
   "process.4t": "Engagement",
-  "process.4d": "Engagement letter with the client or with PRC counsel.",
+  "process.4d": "Engagement letter with the client or with your firm.",
   "process.4w": "on signature",
   "process.5t": "Execution",
   "process.5d": "Led by the named partner, never subcontracted out.",
@@ -120,20 +121,20 @@ const EN = {
   "process.6t": "Reporting",
   "process.6d": "Milestone reports in English with supporting documents.",
   "process.6w": "continuous",
-  "process.langs": "Working languages: English with PRC counsel · Kazakh and Russian before Kazakh courts and state bodies · Chinese translation of key deliverables on request.",
+  "process.langs": "Working languages: English with partner firms · Kazakh and Russian before Kazakh courts and state bodies · translation into your language on request.",
 
   "why.eyebrow": "Why us",
   "why.title": "Why this team",
   "why.1t": "Partners do the work",
-  "why.1d": "Every mandate is executed by a named partner with 20+ years of practice. Nothing is subcontracted to junior staff or to another firm.",
+  "why.1d": "Every mandate is executed by a named partner with 20+ years of practice. Nothing is subcontracted to junior staff or another firm.",
   "why.2t": "Court, migration, corporate and accounting in one agreement",
-  "why.2d": "A Chinese client rarely needs only one of the four. One agreement gives access to the whole capability.",
+  "why.2d": "A foreign client rarely needs only one of the four. One agreement gives access to the whole capability.",
   "why.3t": "Experience from the other side of the table",
   "why.3d": "A former judge, a former head of legal at two banks and a state holding, and a migration practitioner who files with the commissions weekly.",
   "why.4t": "Present in both capitals",
   "why.4d": "Almaty for courts and commerce; Astana for ministries, the migration service and the AIFC. No travel surcharge, no local agent.",
-  "why.5t": "Built for foreign clients",
-  "why.5d": "English-language reporting, fixed scoping before work starts, and documents drafted natively in the state languages — not translated.",
+  "why.5t": "Built for foreign clients of any origin",
+  "why.5d": "English-language reporting, fixed scoping before work starts, documents drafted natively in the state languages — not translated.",
 
   "next.eyebrow": "Getting started",
   "next.title": "Proposed next steps",
@@ -144,25 +145,25 @@ const EN = {
   "next.2d": "Scope, exclusivity, fee mechanism, conflict and confidentiality rules.",
   "next.2w": "Weeks 2–4",
   "next.3t": "Two pilot mandates",
-  "next.3d": "One corporate setup, one dispute or migration matter, to test the workflow end to end.",
+  "next.3d": "One corporate setup, one dispute or migration matter — to test the workflow end to end.",
   "next.3w": "Weeks 4–12",
   "next.4t": "Rate card and service levels",
   "next.4d": "Fixed fees for standard work, hourly for bespoke, agreed response times.",
   "next.4w": "with the agreement",
   "next.5t": "Mutual visit",
-  "next.5d": "A working session in China or Almaty, with a joint seminar for Kazakhstan-bound clients.",
+  "next.5d": "A working session in your city or Almaty, with a joint seminar for Kazakhstan-bound clients.",
   "next.5w": "at your convenience",
-  "next.note": "We would be glad to work from a standard partnership template.",
+  "next.note": "We would be glad to work from your standard partnership template.",
 
   "contacts.eyebrow": "Get in touch",
   "contacts.title": "Contacts",
   "contacts.almaty": "Almaty · practising across the Republic of Kazakhstan",
   "contacts.astana": "Astana · practising across the Republic of Kazakhstan",
-  "contacts.close": "We look forward to building a Kazakhstan practice together.",
+  "contacts.close": "We look forward to building the Kazakhstan practice together.",
 
   "footer.city": "Almaty · Astana, Republic of Kazakhstan",
   "profile.creds": "Credentials & track record",
-  "profile.handles": "What she handles for Chinese clients",
+  "profile.handles": "What she handles for foreign clients",
   "common.close": "Close"
 };
 
@@ -174,14 +175,15 @@ const META = {
     photo: "Фото: "
   },
   en: {
-    title: "Silk Road Legal Alliance — Kazakh counsel for Chinese business",
-    description: "Kazakh legal and accounting support for Chinese business: litigation and criminal defence, migration and work permits, corporate law, accounting and tax. Almaty · Astana.",
+    title: "Silk Road Legal Alliance — your Kazakhstan desk",
+    description: "Licensed Kazakh counsel and an accountant for foreign law firms and their clients: litigation and criminal defence, migration and work permits, corporate law, accounting and tax. Almaty · Astana.",
     close: "Close",
     photo: "Photo: "
   }
 };
 
-/* Подробные профили для всплывающего окна */
+/* Подробные профили для всплывающего окна.
+   Списки handles идут парами: левая колонка, правая колонка. */
 const PROFILES = {
   ryspekova: {
     photo: "assets/img/ryspekova.jpg",
@@ -190,17 +192,17 @@ const PROFILES = {
       city: "Алматы<br>Работаем по всей Республике Казахстан",
       creds: [
         "Адвокат Алматинской городской коллегии адвокатов с 2018 года — 29 лет в профессии",
-        "Государственная лицензия на право занятия адвокатской деятельностью № 0001086 (2007), Министерство юстиции РК",
+        "Лицензия на адвокатскую деятельность № 0001086 (2007), Министерство юстиции РК",
         "Бывший судья Аксуского городского суда — гражданские, административные и уголовные дела",
-        "Старший менеджер юридического департамента АО «Bank RBK» — банковские и финансовые споры",
-        "Государственная лицензия нотариуса № 11002095 (2011); практикующий нотариус, Алматы и Астана",
-        "КазНУ имени Аль-Фараби, специальность «Правоведение»"
+        "Старший менеджер юрдепартамента АО «Bank RBK» — банковские и финансовые споры",
+        "Лицензия нотариуса № 11002095 (2011); практикующий нотариус, Алматы и Астана",
+        "КазНУ имени Аль-Фараби, «Правоведение»"
       ],
       handles: [
-        "Представительство во всех инстанциях", "Уголовная и досудебная защита",
-        "Гражданские и коммерческие споры", "Трудовые споры",
-        "Признание иностранных и арбитражных решений", "Исполнительное производство",
-        "Медиация и примирительные процедуры", "Сопровождение проверок госорганов"
+        "Представительство во всех инстанциях", "Признание иностранных и арбитражных решений",
+        "Уголовная и досудебная защита", "Исполнительное производство",
+        "Гражданские и коммерческие споры", "Медиация и примирительные процедуры",
+        "Трудовые споры", "Сопровождение проверок госорганов"
       ]
     },
     en: {
@@ -215,10 +217,10 @@ const PROFILES = {
         "Al-Farabi Kazakh National University, Law"
       ],
       handles: [
-        "Representation at all judicial instances", "Criminal defence and pre-trial protection",
-        "Civil and commercial litigation", "Labour and employment disputes",
-        "Recognition of foreign judgments and awards", "Enforcement proceedings",
-        "Mediation and settlement", "Representation during state inspections"
+        "Representation at all judicial instances", "Recognition of foreign judgments and awards",
+        "Criminal defence and pre-trial protection", "Enforcement proceedings",
+        "Civil and commercial litigation", "Mediation and settlement",
+        "Labour and employment disputes", "Representation during state inspections"
       ]
     }
   },
@@ -229,17 +231,17 @@ const PROFILES = {
       city: "Астана<br>Работаем по всей Республике Казахстан",
       creds: [
         "24 года общего стажа, свыше 20 лет по специальности — директор юридических департаментов",
-        "Директор юридического департамента АО «Цеснабанк» — продажа кредитного портфеля, реорганизация банка, выкуп акций",
+        "Директор юрдепартамента АО «Цеснабанк» — продажа кредитного портфеля, реорганизация банка, выкуп акций",
         "Начальник юридического управления Астанинского филиала АО «Народный Банк Казахстана» (2004–2012)",
         "Директор департамента правового обеспечения АО «НК «Казахстан Инжиниринг» и АО «Казахстанская жилищная компания»",
         "Член Палаты юридических консультантов Adilzanger; сертифицированный медиатор; лицензия нотариуса",
-        "КарГУ имени Е. А. Букетова, «Правоведение» (с отличием); КазЭУ имени Т. Рыскулова, «Финансы»"
+        "КарГУ им. Е. А. Букетова, «Правоведение» (с отличием); КазЭУ им. Т. Рыскулова, «Финансы»"
       ],
       handles: [
-        "Корпоративное структурирование, холдинги", "M&amp;A, купля-продажа и выкуп долей",
-        "Банковская, кредитная, залоговая документация", "Договорная работа и сопровождение сделок",
-        "Проблемные долги и банкротство", "Претензионно-исковая работа",
-        "Корпоративное управление", "Правовой due diligence"
+        "Корпоративное структурирование, холдинги", "Проблемные долги и банкротство",
+        "M&amp;A, купля-продажа и выкуп долей", "Претензионно-исковая работа",
+        "Банковская, кредитная, залоговая документация", "Корпоративное управление",
+        "Договорная работа и сопровождение сделок", "Правовой due diligence"
       ]
     },
     en: {
@@ -254,10 +256,10 @@ const PROFILES = {
         "Karaganda State University, Law (honours); Ryskulov Economic University, Finance"
       ],
       handles: [
-        "Corporate structuring and group holdings", "M&amp;A, share purchases and buy-outs",
-        "Banking, credit and security documentation", "Contract drafting and transaction support",
-        "Distressed debt, restructuring, bankruptcy", "Claims and pre-litigation work",
-        "Corporate governance and board matters", "Legal due diligence"
+        "Corporate structuring and group holdings", "Distressed debt, restructuring, bankruptcy",
+        "M&amp;A, share purchases and buy-outs", "Claims and pre-litigation work",
+        "Banking, credit and security documentation", "Corporate governance and board matters",
+        "Contract drafting and transaction support", "Legal due diligence"
       ]
     }
   },
@@ -267,36 +269,36 @@ const PROFILES = {
       name: "Жундибаева<br>Алия Дауылбаевна",
       city: "Астана<br>Работаем по всей Республике Казахстан",
       creds: [
-        "26 лет общего стажа; директор ТОО «Алим-Консалтинг» с 2013 года — юридические услуги, регистрация и сопровождение бизнеса, сделки, визы и миграция",
+        "26 лет стажа; директор ТОО «Алим-Консалтинг» с 2013 года — сопровождение бизнеса, сделки, визы и миграция",
         "Mabetex Group Kazakhstan (2001–2012) — юрист, руководитель отдела кадрового и визового сопровождения",
-        "Член Палаты юридических консультантов Республики Казахстан; сертифицированный медиатор",
-        "Разрешения на привлечение ИРС; визовая поддержка категорий B2, B3, A5, C3, C5 (бизнес-иммигрант) и инвесторские визы",
-        "Регистрация ТОО с участием нерезидентов, регистрация в МФЦА, БИН и ИИН; представительство в судах по гражданским и административным делам",
+        "Член Палаты юридических консультантов РК; сертифицированный медиатор",
+        "Разрешения на привлечение ИРС; визы B2, B3, A5, C3, C5 (бизнес-иммигрант) и инвесторские визы",
+        "Регистрация ТОО с участием нерезидентов, МФЦА, БИН и ИИН; гражданские и административные дела",
         "КарГУ им. Е. А. Букетова, «Правоведение» (с отличием); 2 года преподавания в ЕНУ им. Л. Н. Гумилёва"
       ],
       handles: [
-        "Регистрация и сопровождение бизнеса в РК", "Привлечение ИРС (разрешения на работу)",
-        "Визовая и миграционная поддержка", "Регистрация компаний в МФЦА",
-        "Договорная работа", "Сопровождение сделок",
-        "Кадровое и трудовое сопровождение"
+        "Регистрация и сопровождение бизнеса в РК", "Договорная работа",
+        "Привлечение ИРС (разрешения на работу)", "Сопровождение сделок",
+        "Визовая и миграционная поддержка", "Кадровое и трудовое сопровождение",
+        "Регистрация компаний в МФЦА"
       ]
     },
     en: {
       name: "Aliya Zhundibayeva",
       city: "Astana<br>Practising across the Republic of Kazakhstan",
       creds: [
-        "26 years in law; director of Alim-Consulting LLP since 2013 — legal services, business support, transactions, visas, migration",
+        "26 years in law; director of Alim-Consulting LLP since 2013 — business support, transactions, visas, migration",
         "Mabetex Group Kazakhstan (2001–2012) — lawyer, head of the HR and visa support department",
         "Member of the Chamber of Legal Consultants of the Republic of Kazakhstan; certified mediator",
-        "Work permits for foreign specialists; visa support B2, B3, A5, C3, C5 business-immigrant and investor visas",
-        "Company formation with non-resident founders, AIFC registration, BIN/IIN; civil and administrative court cases",
-        "Karaganda State University, Law (honours); two years lecturing at L. N. Gumilyov Eurasian National University"
+        "Work permits for foreign specialists; B2, B3, A5, C3, C5 business-immigrant and investor visas",
+        "Company formation with non-resident founders, AIFC registration, BIN/IIN; civil and administrative cases",
+        "Karaganda State University, Law (honours); two years lecturing at L. N. Gumilyov ENU"
       ],
       handles: [
-        "Business registration and support in Kazakhstan", "Foreign workforce — work permits",
-        "Visa and migration support", "AIFC company registration",
-        "Contract work", "Transaction support",
-        "HR and labour-law support"
+        "Business registration and support in Kazakhstan", "Contract work",
+        "Foreign workforce — work permits", "Transaction support",
+        "Visa and migration support", "HR and labour-law support",
+        "AIFC company registration"
       ]
     }
   },
@@ -306,36 +308,36 @@ const PROFILES = {
       name: "Буламбаева<br>Айгуль Айдархановна",
       city: "Астана<br>Работаем по всей Республике Казахстан",
       creds: [
-        "Профессиональный бухгалтер Республики Казахстан (сертификат № 0003114, 2020); в бухгалтерии с 2008 года",
-        "DataNomika (с 2018 года) — бухгалтерский аутсорсинг: YILDIRIM Holding, «Шатура Астана», «АЭСТ Билдинг», «MDCloud», Customertimes Kazakhstan и др.",
-        "Полный бухгалтерский и налоговый учёт по всем участкам — ОС, ТМЦ, зарплата, реализация, ВЭД; закрытие периодов без задержек",
-        "Главный бухгалтер Mabetex Group, Астана (2011–2018), ранее заместитель главного бухгалтера (2008–2011) — зарплата на 500+ человек",
-        "Налоговая и статистическая отчётность, отчёты в Нацбанк; возврат НДС; камеральные, выездные и аудиторские проверки; снижение налоговой нагрузки на 15% законными методами",
-        "Настройка 1С и ЭДО, ИС ЭСФ, Виртуальный склад; КГСХА имени Т. С. Мальцева, экономический факультет; диплом РОСТО по бухучёту"
+        "Профессиональный бухгалтер РК (сертификат № 0003114, 2020); в бухгалтерии с 2008 года",
+        "DataNomika (с 2018) — бухгалтерский аутсорсинг: YILDIRIM Holding, «Шатура Астана», «АЭСТ Билдинг», «MDCloud» и др.",
+        "Полный бухгалтерский и налоговый учёт — ОС, ТМЦ, зарплата, реализация, ВЭД",
+        "Главный бухгалтер Mabetex Group, Астана (2011–2018) — зарплата на 500+ человек",
+        "Налоговая и статотчётность, отчёты в Нацбанк; возврат НДС; проверки; снижение налоговой нагрузки на 15%",
+        "1С и ЭДО, ИС ЭСФ, Виртуальный склад; КГСХА им. Т. С. Мальцева, экономический факультет"
       ],
       handles: [
-        "Постановка учёта нового ТОО", "Налоговые декларации и отчётность",
-        "Отчётность в Нацбанк и статистику", "Сопровождение налоговых проверок",
-        "Учёт импорта и экспорта, ЕАЭС", "Расчёт заработной платы и налогов с ФОТ",
-        "ЭСФ и Виртуальный склад", "Возврат НДС"
+        "Постановка учёта нового ТОО", "Учёт импорта и экспорта, ЕАЭС",
+        "Налоговые декларации и отчётность", "Возврат НДС",
+        "Зарплата и налоги с ФОТ", "Отчётность в Нацбанк и статистику",
+        "ЭСФ и Виртуальный склад", "Сопровождение налоговых проверок"
       ]
     },
     en: {
       name: "Aigul Bulambayeva",
       city: "Astana<br>Practising across the Republic of Kazakhstan",
       creds: [
-        "Certified Professional Accountant of the Republic of Kazakhstan (certificate No. 0003114, 2020); in accounting since 2008",
-        "DataNomika (since 2018) — outsourced accounting for YILDIRIM Holding, Shatura Astana, AEST Building, MDCloud, Customertimes Kazakhstan and others",
-        "Full accounting and tax cycle — fixed assets, inventory, payroll, sales, foreign trade; periods closed on time",
-        "Chief accountant, Mabetex Group, Astana (2011–2018); deputy chief accountant (2008–2011) — payroll for 500+ staff",
-        "Tax, National Bank and statistical reporting; VAT refunds; inspections and audits passed; tax burden cut 15% lawfully",
-        "1C and e-document workflow set-up, e-invoicing, Virtual Warehouse; Kurgan State Agricultural Academy, Economics; ROSTO accounting diploma"
+        "Certified Professional Accountant of the RK (certificate No. 0003114, 2020); in accounting since 2008",
+        "DataNomika (since 2018) — outsourced accounting for YILDIRIM Holding, Shatura Astana, AEST Building, MDCloud and others",
+        "Full accounting and tax cycle — fixed assets, inventory, payroll, sales, foreign trade",
+        "Chief accountant, Mabetex Group, Astana (2011–2018) — payroll for 500+ staff",
+        "Tax, National Bank and statistical reporting; VAT refunds; inspections passed; tax burden cut 15% lawfully",
+        "1C and e-document workflow, e-invoicing, Virtual Warehouse; Kurgan State Agricultural Academy, Economics"
       ],
       handles: [
-        "Setting up the books for a new TOO", "Tax returns and statutory reporting",
-        "National Bank and statistics filings", "Support during tax inspections",
-        "Import and export accounting, EAEU", "Payroll and payroll taxes",
-        "E-invoicing and Virtual Warehouse", "VAT refunds"
+        "Setting up the books for a new TOO", "Import and export accounting, EAEU",
+        "Tax returns and statutory reporting", "VAT refunds",
+        "Payroll and payroll taxes", "National Bank and statistics filings",
+        "E-invoicing and Virtual Warehouse", "Support during tax inspections"
       ]
     }
   }
