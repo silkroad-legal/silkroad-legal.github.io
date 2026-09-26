@@ -1,456 +1,187 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en" class="l-en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Silk Road Legal Alliance — Юридический альянс «Шёлковый путь»</title>
-  <meta name="description" content="Лицензированные казахстанские юристы и бухгалтер для иностранных юридических фирм и их клиентов: суды и уголовная защита, миграция и разрешения на работу, корпоративное право, бухгалтерия и налоги. Алматы · Астана.">
-  <meta property="og:title" content="Silk Road Legal Alliance">
-  <meta property="og:description" content="Ваш партнёр в Казахстане · Your Kazakhstan desk — licensed local counsel for foreign law firms and their clients">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#123328">
-  <script>document.documentElement.classList.add("js")</script>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23123328'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-weight='700' font-size='30' text-anchor='middle' fill='%23ce9c63'%3ESR%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,700;1,400&display=swap&subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=2">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Silk Road Legal Alliance</title>
+<meta name="description" content="Your Kazakhstan desk — licensed local counsel for foreign law firms and their clients. Litigation, migration, corporate, accounting and tax. Almaty · Astana.">
+<meta property="og:title" content="Silk Road Legal Alliance">
+<meta property="og:description" content="Your Kazakhstan desk — licensed local counsel for foreign law firms and their clients · Ваш партнёр в Казахстане">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#12322A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2312322A'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-weight='700' font-size='30' text-anchor='middle' fill='%23D2A56C'%3ESR%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Lato:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
-<!-- ============ HEADER ============ -->
-<header class="header" id="header">
-  <div class="wrap header__inner">
-    <a class="logo" href="#top" aria-label="Silk Road Legal Alliance">
-      <span class="logo__top">SILK ROAD</span>
-      <span class="logo__bottom">LEGAL ALLIANCE</span>
-    </a>
-    <nav class="nav" id="nav">
-      <a href="#market" data-i18n="nav.market">Рынок</a>
-      <a href="#team" data-i18n="nav.team">Команда</a>
-      <a href="#services" data-i18n="nav.services">Услуги</a>
-      <a href="#cooperation" data-i18n="nav.coop">Сотрудничество</a>
-      <a href="#process" data-i18n="nav.process">Процесс</a>
-      <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
-    </nav>
-    <div class="lang" role="group" aria-label="Language / Язык">
-      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
-      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top">SILK ROAD <b>LEGAL ALLIANCE</b></a>
+    <nav aria-label="Sections"><a href="#market"><span lang="en">Market</span><span lang="ru">Рынок</span></a><a href="#team"><span lang="en">Team</span><span lang="ru">Команда</span></a><a href="#services"><span lang="en">Services</span><span lang="ru">Услуги</span></a><a href="#model"><span lang="en">Partnership</span><span lang="ru">Партнёрство</span></a><a href="#process"><span lang="en">Process</span><span lang="ru">Процесс</span></a><a href="#contacts"><span lang="en">Contacts</span><span lang="ru">Контакты</span></a></nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button id="btn-en" type="button" data-l="en" aria-pressed="true">EN</button>
+      <button id="btn-ru" type="button" data-l="ru" aria-pressed="false">RU</button>
     </div>
-    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
-      <span></span><span></span><span></span>
-    </button>
   </div>
 </header>
 
 <main id="top">
-
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero__shape hero__shape--a"></div>
-  <div class="hero__shape hero__shape--b"></div>
+<section class="hero dark">
   <div class="wrap">
-    <div class="hero__content">
-      <span class="eyebrow" data-i18n="hero.eyebrow">Предложение о партнёрстве для юридических фирм</span>
-      <h1 class="hero__title"><span class="t1">SILK ROAD</span><span class="t2">LEGAL ALLIANCE</span></h1>
-      <p class="hero__name" data-i18n="hero.name">Юридический альянс «Шёлковый путь»</p>
-      <hr class="rule">
-      <p class="hero__lead" data-i18n="hero.lead">Ваш партнёр в Казахстане — лицензированные местные юристы для иностранных юридических фирм и их клиентов</p>
-      <p class="hero__meta" data-i18n="hero.meta">Алматы · Астана, Республика Казахстан</p>
-      <div class="hero__cta">
-        <a class="btn btn--gold" href="#contacts" data-i18n="hero.cta1">Связаться с нами</a>
-        <a class="btn btn--ghost" href="#team" data-i18n="hero.cta2">Познакомиться с командой</a>
-      </div>
+    <p class="eyebrow"><span lang="en">Partnership proposal for law firms</span><span lang="ru">Предложение о партнёрстве для юридических фирм</span></p>
+    <h1>SILK ROAD <span class="b">LEGAL ALLIANCE</span></h1>
+    <p class="ru-name"><span lang="en">Kazakhstan counsel · Almaty &amp; Astana</span><span lang="ru">Юридический альянс «Шёлковый путь»</span></p>
+    <div class="rule"></div>
+    <p class="tag"><span lang="en">Your Kazakhstan desk — licensed local counsel for foreign law firms and their clients</span><span lang="ru">Ваш партнёр в Казахстане — лицензированные местные юристы для иностранных юридических фирм и их клиентов</span></p>
+    <div class="cta">
+      <a class="btn" href="#model"><span lang="en">Partnership model</span><span lang="ru">Модель партнёрства</span></a>
+      <a class="btn ghost" href="#contacts"><span lang="en">Contact the team</span><span lang="ru">Связаться с командой</span></a>
     </div>
+    <p class="place"><span lang="en">Almaty · Astana, Republic of Kazakhstan  |  September 2026</span><span lang="ru">Алматы · Астана, Республика Казахстан  |  Сентябрь 2026</span></p>
   </div>
 </section>
 
-<!-- ============ MARKET ============ -->
-<section class="section section--dark" id="market">
+<section class="dark" id="market" style="padding-top:0">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="market.eyebrow">Рынок</span>
-      <h2 class="section__title" data-i18n="market.title">Рынок, который мы будем обслуживать вместе</h2>
-    </div>
+    <div class="head"><p class="eyebrow"><span lang="en">Why Kazakhstan</span><span lang="ru">Почему Казахстан</span></p><h2 class="h2"><span lang="en">The market we would serve together</span><span lang="ru">Рынок, который мы будем обслуживать вместе</span></h2></div>
     <div class="stats">
-      <div class="stat reveal">
-        <div class="stat__value">69 800+</div>
-        <p class="stat__label" data-i18n="market.s1">юрлиц с иностранным участием зарегистрировано в Казахстане</p>
-        <span class="stat__date" data-i18n="market.s1d">на 01.12.2025</span>
-      </div>
-      <div class="stat reveal">
-        <div class="stat__value" data-i18n="market.s2v">+7,5%</div>
-        <p class="stat__label" data-i18n="market.s2">годовой рост числа иностранных юрлиц и филиалов</p>
-        <span class="stat__date" data-i18n="market.s2d">дек. 2024 → дек. 2025</span>
-      </div>
-      <div class="stat reveal">
-        <div class="stat__value" data-i18n="market.s3v">$20,5 млрд</div>
-        <p class="stat__label" data-i18n="market.s3">приток прямых иностранных инвестиций, +14,4% за год</p>
-        <span class="stat__date" data-i18n="market.s3d">2025</span>
-      </div>
-      <div class="stat reveal">
-        <div class="stat__value" data-i18n="market.s4v">103</div>
-        <p class="stat__label" data-i18n="market.s4">инвестиционных соглашения и контракта подписано государством</p>
-        <span class="stat__date" data-i18n="market.s4d">2025</span>
-      </div>
+      <div class="stat"><div class="n"><span lang="en">69 800+</span><span lang="ru">69 800+</span></div><p class="d"><span lang="en">legal entities with foreign participation registered in Kazakhstan</span><span lang="ru">юрлиц с иностранным участием зарегистрировано в Казахстане</span></p><p class="note"><span lang="en">1 Dec 2025</span><span lang="ru">на 01.12.2025</span></p></div><div class="stat"><div class="n"><span lang="en">+7.5%</span><span lang="ru">+7,5%</span></div><p class="d"><span lang="en">annual growth in foreign-owned entities and branches</span><span lang="ru">годовой рост числа иностранных юрлиц и филиалов</span></p><p class="note"><span lang="en">Dec 2024 → Dec 2025</span><span lang="ru">дек. 2024 → дек. 2025</span></p></div><div class="stat"><div class="n"><span lang="en">$20.5 bn</span><span lang="ru">$20,5 млрд</span></div><p class="d"><span lang="en">foreign direct investment inflow, +14.4% year on year</span><span lang="ru">приток прямых иностранных инвестиций, +14,4% за год</span></p><p class="note"><span lang="en">2025</span><span lang="ru">2025</span></p></div><div class="stat"><div class="n"><span lang="en">103</span><span lang="ru">103</span></div><p class="d"><span lang="en">investment agreements and contracts signed by the state</span><span lang="ru">инвестиционных соглашения и контракта подписано государством</span></p><p class="note"><span lang="en">2025</span><span lang="ru">2025</span></p></div>
     </div>
-    <p class="market__claim reveal" data-i18n="market.claim">Каждой из этих компаний — из Европы, стран Залива, Турции, Азии или Америки — нужно зарегистрировать юрлицо, оформить персонал, исполнять договоры и защищаться в спорах по казахстанскому праву, на казахском и русском языках, силами юристов с казахстанской лицензией.</p>
-    <p class="market__src" data-i18n="market.src">Источники: Бюро национальной статистики РК (юрлица, 01.12.2025); Комитет по инвестициям МИД РК через Kazinform (ПИИ и соглашения, 2025).</p>
+    <p class="quote"><span lang="en">Every one of those companies — from Europe, the Gulf, Türkiye, Asia or the Americas — needs a company registered, staff admitted, contracts enforced and disputes defended under Kazakh law, in Kazakh and Russian, by lawyers licensed in Kazakhstan.</span><span lang="ru">Каждой из этих компаний — из Европы, стран Залива, Турции, Азии или Америки — нужно зарегистрировать юрлицо, оформить персонал, исполнять договоры и защищаться в спорах по казахстанскому праву, на казахском и русском языках, силами юристов с казахстанской лицензией.</span></p>
+    <p class="src"><span lang="en">Sources: Bureau of National Statistics of the RK (entities, 1 Dec 2025); Investment Committee, MFA RK via Kazinform (FDI and agreements, 2025).</span><span lang="ru">Источники: Бюро национальной статистики РК (юрлица, 01.12.2025); Комитет по инвестициям МИД РК через Kazinform (ПИИ и соглашения, 2025).</span></p>
   </div>
 </section>
 
-<!-- ============ NEEDS ============ -->
-<section class="section" id="needs">
+<section id="needs">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="needs.eyebrow">Задачи клиента</span>
-      <h2 class="section__title" data-i18n="needs.title">Что нужно иностранному клиенту на месте</h2>
-    </div>
+    <div class="head"><p class="eyebrow"><span lang="en">On the ground</span><span lang="ru">На месте</span></p><h2 class="h2"><span lang="en">What a foreign client needs on the ground</span><span lang="ru">Что нужно иностранному клиенту на месте</span></h2></div>
     <div class="needs">
-      <div class="needs__list">
-        <div class="need reveal">
-          <span class="need__num">1</span>
-          <div>
-            <h3 data-i18n="needs.1t">Представительство в суде адвокатом с лицензией</h3>
-            <p data-i18n="needs.1d">Только адвокат с казахстанской лицензией вправе выступать защитником по уголовным делам и представлять сторону во всех инстанциях.</p>
-          </div>
-        </div>
-        <div class="need reveal">
-          <span class="need__num">2</span>
-          <div>
-            <h3 data-i18n="needs.2t">Разрешения на работу и визы до приезда персонала</h3>
-            <p data-i18n="needs.2d">Разрешения на привлечение ИРС, визы бизнес-иммигранта и инвестора, уведомления миграционной службы, ИИН для нерезидентов.</p>
-          </div>
-        </div>
-        <div class="need reveal">
-          <span class="need__num">3</span>
-          <div>
-            <h3 data-i18n="needs.3t">Структура, которая выдержит проверку</h3>
-            <p data-i18n="needs.3d">ТОО или компания МФЦА, БИН, налоговый режим, банковский счёт, корпоративные документы по требованиям законодательства РК.</p>
-          </div>
-        </div>
-        <div class="need reveal">
-          <span class="need__num">4</span>
-          <div>
-            <h3 data-i18n="needs.4t">Документы и заседания на казахском и русском</h3>
-            <p data-i18n="needs.4d">Госорганы и суды принимают документы только на казахском или русском — процессуальные документы составляются носителями, а не переводятся.</p>
-          </div>
-        </div>
-        <div class="need reveal">
-          <span class="need__num">5</span>
-          <div>
-            <h3 data-i18n="needs.5t">Бухгалтерия и налоговая отчётность с первого месяца</h3>
-            <p data-i18n="needs.5d">Учёт по казахстанским стандартам, налоговые декларации, ЭСФ и виртуальный склад, зарплата, отчётность в госорганы.</p>
-          </div>
-        </div>
+      <ol><li><div><h3><span lang="en">Court representation by a licensed advocate</span><span lang="ru">Представительство в суде адвокатом с лицензией</span></h3><p><span lang="en">Only a Kazakhstan-licensed advocate may act as defence counsel in criminal proceedings and represent a party at every judicial instance.</span><span lang="ru">Только адвокат с казахстанской лицензией вправе выступать защитником по уголовным делам и представлять сторону во всех инстанциях.</span></p></div></li><li><div><h3><span lang="en">Work permits and visas before staff arrive</span><span lang="ru">Разрешения на работу и визы до приезда персонала</span></h3><p><span lang="en">Foreign-specialist permits, business-immigrant and investor visas, migration notifications, IIN for non-residents.</span><span lang="ru">Разрешения на привлечение ИРС, визы бизнес-иммигранта и инвестора, уведомления миграционной службы, ИИН для нерезидентов.</span></p></div></li><li><div><h3><span lang="en">A structure that survives audit</span><span lang="ru">Структура, которая выдержит проверку</span></h3><p><span lang="en">TOO or AIFC entity, BIN, tax regime, bank account, corporate documents drafted to Kazakh statutory form.</span><span lang="ru">ТОО или компания МФЦА, БИН, налоговый режим, банковский счёт, корпоративные документы по требованиям законодательства РК.</span></p></div></li><li><div><h3><span lang="en">Filings and hearings in Kazakh and Russian</span><span lang="ru">Документы и заседания на казахском и русском</span></h3><p><span lang="en">State bodies and courts accept documents only in Kazakh or Russian — pleadings must be drafted natively, not translated.</span><span lang="ru">Госорганы и суды принимают документы только на казахском или русском — процессуальные документы составляются носителями, а не переводятся.</span></p></div></li><li><div><h3><span lang="en">Bookkeeping and tax filings from month one</span><span lang="ru">Бухгалтерия и налоговая отчётность с первого месяца</span></h3><p><span lang="en">Kazakh-standard accounts, tax returns, e-invoices and virtual warehouse, payroll, state reporting.</span><span lang="ru">Учёт по казахстанским стандартам, налоговые декларации, ЭСФ и виртуальный склад, зарплата, отчётность в госорганы.</span></p></div></li></ol>
+      <div class="callout">
+        <p><span lang="en">Cross-border deals are won in London, Dubai, Istanbul or Beijing.</span><span lang="ru">Сделки заключаются в Лондоне, Дубае, Стамбуле или Пекине.</span></p>
+        <p><span lang="en">They are executed — or lost — in Kazakh registries, ministries and courtrooms.</span><span lang="ru">Исполняются — или проваливаются — в казахстанских реестрах, министерствах и судах.</span></p>
+        <p class="t"><span lang="en">That is the half we cover.</span><span lang="ru">Мы закрываем вторую половину.</span></p>
       </div>
-      <aside class="quote reveal">
-        <p data-i18n="needs.quote">Сделки заключаются в Лондоне, Дубае, Стамбуле или Пекине. Исполняются — или проваливаются — в казахстанских реестрах, министерствах и судах.</p>
-        <strong data-i18n="needs.quoteEnd">Мы закрываем вторую половину.</strong>
-      </aside>
     </div>
   </div>
 </section>
 
-<!-- ============ TEAM ============ -->
-<section class="section section--mist" id="team">
+<section class="tint" id="team">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="team.eyebrow">Команда</span>
-      <h2 class="section__title" data-i18n="team.title">Три юриста и бухгалтер — одна точка входа</h2>
-    </div>
+    <div class="head"><p class="eyebrow"><span lang="en">The team</span><span lang="ru">Команда</span></p><h2 class="h2"><span lang="en">Three lawyers and an accountant — one point of entry</span><span lang="ru">Три юриста и бухгалтер — одна точка входа</span></h2><p class="lead"><span lang="en">Each specialist practises independently; together they cover litigation, migration, corporate and accounting work under one agreement.</span><span lang="ru">Каждый специалист практикует самостоятельно — вместе они закрывают судебную, миграционную, корпоративную и бухгалтерскую работу в рамках одного соглашения.</span></p></div>
     <div class="team">
-      <article class="member reveal">
-        <img class="member__photo" src="assets/img/ryspekova.jpg" alt="" loading="lazy" width="104" height="104">
-        <h3 class="member__name" data-i18n="p.ryspekova.short">Рыспекова Бибигуль</h3>
-        <p class="member__role" data-i18n="p.ryspekova.role">Судебная работа и уголовная защита</p>
-        <p class="member__meta" data-i18n="p.ryspekova.meta">Адвокат с лицензией · бывший судья<br>29 лет в праве · Алматы</p>
-        <button class="member__btn" type="button" data-profile="ryspekova" data-i18n="team.more">Квалификация и опыт</button>
-      </article>
-      <article class="member reveal">
-        <img class="member__photo" src="assets/img/tyrtykayeva.jpg" alt="" loading="lazy" width="104" height="104">
-        <h3 class="member__name" data-i18n="p.tyrtykayeva.short">Тыртыкаева Сая</h3>
-        <p class="member__role" data-i18n="p.tyrtykayeva.role">Корпоративное, банковское и финансовое право</p>
-        <p class="member__meta" data-i18n="p.tyrtykayeva.meta">Руководитель юрдепартаментов банков и холдингов<br>24 года · Астана</p>
-        <button class="member__btn" type="button" data-profile="tyrtykayeva" data-i18n="team.more">Квалификация и опыт</button>
-      </article>
-      <article class="member reveal">
-        <img class="member__photo" src="assets/img/zhundibayeva.jpg" alt="" loading="lazy" width="104" height="104">
-        <h3 class="member__name" data-i18n="p.zhundibayeva.short">Жундибаева Алия</h3>
-        <p class="member__role" data-i18n="p.zhundibayeva.role">Миграция и регистрация бизнеса</p>
-        <p class="member__meta" data-i18n="p.zhundibayeva.meta">Визы, разрешения на работу, регистрация компаний<br>26 лет · Астана</p>
-        <button class="member__btn" type="button" data-profile="zhundibayeva" data-i18n="team.more">Квалификация и опыт</button>
-      </article>
-      <article class="member reveal">
-        <img class="member__photo" src="assets/img/bulambayeva.jpg" alt="" loading="lazy" width="104" height="104">
-        <h3 class="member__name" data-i18n="p.bulambayeva.short">Буламбаева Айгуль</h3>
-        <p class="member__role" data-i18n="p.bulambayeva.role">Бухгалтерский и налоговый учёт</p>
-        <p class="member__meta" data-i18n="p.bulambayeva.meta">Профессиональный бухгалтер РК<br>с 2008 года · Астана</p>
-        <button class="member__btn" type="button" data-profile="bulambayeva" data-i18n="team.more">Квалификация и опыт</button>
-      </article>
+      <div class="person"><img src="assets/img/ryspekova.jpg" alt="Bibigul Ryspekova"><h3><span lang="en">Bibigul Ryspekova</span><span lang="ru">Рыспекова Бибигуль</span></h3><p class="ru"><span lang="ru">Bibigul Ryspekova</span></p><p class="role"><span lang="en">Litigation &amp; Criminal Defence</span><span lang="ru">Судебная работа и уголовная защита</span></p><p class="short"><span lang="en">Licensed advocate · former judge · 29 years in law · Almaty</span><span lang="ru">Адвокат с лицензией · бывший судья · 29 лет в праве · Алматы</span></p><button type="button" data-open="bibigul"><span lang="en">Credentials ↓</span><span lang="ru">Квалификация ↓</span></button></div><div class="person"><img src="assets/img/tyrtykayeva.jpg" alt="Saya Tyrtykayeva"><h3><span lang="en">Saya Tyrtykayeva</span><span lang="ru">Тыртыкаева Сая</span></h3><p class="ru"><span lang="ru">Saya Tyrtykayeva</span></p><p class="role"><span lang="en">Corporate, Banking &amp; Finance</span><span lang="ru">Корпоративное, банковское и финансовое право</span></p><p class="short"><span lang="en">Head of legal at banks and holdings · 24 years · Astana</span><span lang="ru">Руководитель юрдепартаментов банков и холдингов · 24 года · Астана</span></p><button type="button" data-open="saya"><span lang="en">Credentials ↓</span><span lang="ru">Квалификация ↓</span></button></div><div class="person"><img src="assets/img/zhundibayeva.jpg" alt="Aliya Zhundibayeva"><h3><span lang="en">Aliya Zhundibayeva</span><span lang="ru">Жундибаева Алия</span></h3><p class="ru"><span lang="ru">Aliya Zhundibayeva</span></p><p class="role"><span lang="en">Migration &amp; Corporate Setup</span><span lang="ru">Миграция и регистрация бизнеса</span></p><p class="short"><span lang="en">Visas, work permits, company formation · 26 years · Astana</span><span lang="ru">Визы, разрешения на работу, регистрация компаний · 26 лет · Астана</span></p><button type="button" data-open="aliya"><span lang="en">Credentials ↓</span><span lang="ru">Квалификация ↓</span></button></div><div class="person"><img src="assets/img/bulambayeva.jpg" alt="Aigul Bulambayeva"><h3><span lang="en">Aigul Bulambayeva</span><span lang="ru">Буламбаева Айгуль</span></h3><p class="ru"><span lang="ru">Aigul Bulambayeva</span></p><p class="role"><span lang="en">Accounting &amp; Tax</span><span lang="ru">Бухгалтерский и налоговый учёт</span></p><p class="short"><span lang="en">Certified professional accountant · since 2008 · Astana</span><span lang="ru">Профессиональный бухгалтер РК · с 2008 года · Астана</span></p><button type="button" data-open="aigul"><span lang="en">Credentials ↓</span><span lang="ru">Квалификация ↓</span></button></div>
     </div>
-    <p class="team__note reveal" data-i18n="team.note">Каждый специалист практикует самостоятельно — вместе они закрывают судебную, миграционную, корпоративную и бухгалтерскую работу в рамках одного соглашения.</p>
-  </div>
-</section>
 
-<!-- ============ SERVICES ============ -->
-<section class="section" id="services">
-  <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="services.eyebrow">Услуги</span>
-      <h2 class="section__title" data-i18n="services.title">Единый пакет услуг</h2>
-    </div>
-    <div class="services">
-      <div class="service reveal"><span class="service__num">01</span>
-        <h3 data-i18n="services.1t">Регистрация бизнеса</h3>
-        <p data-i18n="services.1d">ТОО и компании МФЦА, БИН, налоговый режим, корпоративные документы, счёт, филиалы и представительства.</p></div>
-      <div class="service reveal"><span class="service__num">02</span>
-        <h3 data-i18n="services.2t">Миграция и разрешения на работу</h3>
-        <p data-i18n="services.2d">Разрешения на ИРС, визы бизнес-иммигранта и инвестора, уведомления, ИИН, приглашения.</p></div>
-      <div class="service reveal"><span class="service__num">03</span>
-        <h3 data-i18n="services.3t">Договоры и сделки</h3>
-        <p data-i18n="services.3d">Договоры по праву РК, поставка и подряд, M&amp;A, отчуждение долей, залоговая документация.</p></div>
-      <div class="service reveal"><span class="service__num">04</span>
-        <h3 data-i18n="services.4t">Споры и уголовная защита</h3>
-        <p data-i18n="services.4d">Все инстанции, досудебное урегулирование, признание иностранных и арбитражных решений, уголовная защита.</p></div>
-      <div class="service reveal"><span class="service__num">05</span>
-        <h3 data-i18n="services.5t">Регуляторика и комплаенс</h3>
-        <p data-i18n="services.5d">Лицензирование, отраслевые регуляторы, проверки, ПОД/ФТ и антикоррупционный комплаенс, трудовой аудит.</p></div>
-      <div class="service reveal"><span class="service__num">06</span>
-        <h3 data-i18n="services.6t">Бухгалтерия и налоги</h3>
-        <p data-i18n="services.6d">Постановка и ведение учёта, декларации, ЭСФ и виртуальный склад, ВЭД, расчёты с нерезидентами.</p></div>
-      <div class="service reveal"><span class="service__num">07</span>
-        <h3 data-i18n="services.7t">Зарплата и кадры</h3>
-        <p data-i18n="services.7d">Расчёт зарплаты, налоги и отчисления с ФОТ, кадровое делопроизводство, отчётность по иностранцам.</p></div>
-      <div class="service reveal"><span class="service__num">08</span>
-        <h3 data-i18n="services.8t">Постоянное сопровождение</h3>
-        <p data-i18n="services.8d">Абонентское обслуживание казахстанской компании клиента: консультации, корпоративный календарь, отчётность.</p></div>
+    <div style="margin-top:56px" id="profiles">
+      <div class="tabs" role="tablist" aria-label="Profiles">
+        <button type="button" role="tab" id="tab-bibigul" aria-controls="bio-bibigul" aria-selected="true" data-tab="bibigul"><span lang="en">Bibigul Ryspekova</span><span lang="ru">Рыспекова Бибигуль</span></button><button type="button" role="tab" id="tab-saya" aria-controls="bio-saya" aria-selected="false" data-tab="saya"><span lang="en">Saya Tyrtykayeva</span><span lang="ru">Тыртыкаева Сая</span></button><button type="button" role="tab" id="tab-aliya" aria-controls="bio-aliya" aria-selected="false" data-tab="aliya"><span lang="en">Aliya Zhundibayeva</span><span lang="ru">Жундибаева Алия</span></button><button type="button" role="tab" id="tab-aigul" aria-controls="bio-aigul" aria-selected="false" data-tab="aigul"><span lang="en">Aigul Bulambayeva</span><span lang="ru">Буламбаева Айгуль</span></button>
+      </div>
+      <div class="bio" role="tabpanel" id="bio-bibigul" aria-labelledby="tab-bibigul">
+        <aside><img src="assets/img/ryspekova.jpg" loading="lazy" alt=""><h3><span lang="en">Bibigul Ryspekova</span><span lang="ru">Рыспекова Бибигуль Казымовна</span></h3><p class="ru"><span lang="ru">Bibigul Ryspekova</span></p><p class="role"><span lang="en">Litigation &amp; Criminal Defence</span><span lang="ru">Судебная работа и уголовная защита</span></p><p class="city"><span lang="en">Almaty · Practising across the Republic of Kazakhstan</span><span lang="ru">Алматы · Работаем по всей Республике Казахстан</span></p></aside>
+        <div class="body"><h4><span lang="en">Credentials &amp; track record</span><span lang="ru">Квалификация и опыт</span></h4><ul><li><span lang="en">Advocate, Almaty City Bar Association since 2018 — 29 years in the profession</span><span lang="ru">Адвокат Алматинской городской коллегии адвокатов с 2018 года — 29 лет в профессии</span></li><li><span lang="en">State licence to practise as an advocate No. 0001086 (2007), Ministry of Justice</span><span lang="ru">Лицензия на адвокатскую деятельность № 0001086 (2007), Министерство юстиции РК</span></li><li><span lang="en">Former judge, Aksu City Court — civil, administrative and criminal cases</span><span lang="ru">Бывший судья Аксуского городского суда — гражданские, административные и уголовные дела</span></li><li><span lang="en">Senior manager, legal department, Bank RBK JSC — banking and finance disputes</span><span lang="ru">Старший менеджер юрдепартамента АО «Bank RBK» — банковские и финансовые споры</span></li><li><span lang="en">State notary licence No. 11002095 (2011); practising notary, Almaty and Astana</span><span lang="ru">Лицензия нотариуса № 11002095 (2011); практикующий нотариус, Алматы и Астана</span></li><li><span lang="en">Al-Farabi Kazakh National University, Law</span><span lang="ru">КазНУ имени Аль-Фараби, «Правоведение»</span></li></ul>
+        <div class="box"><h5><span lang="en">What she handles for foreign clients</span><span lang="ru">Что ведёт для иностранных клиентов</span></h5><ul><li><span lang="en">Representation at all judicial instances</span><span lang="ru">Представительство во всех инстанциях</span></li><li><span lang="en">Criminal defence and pre-trial protection</span><span lang="ru">Уголовная и досудебная защита</span></li><li><span lang="en">Civil and commercial litigation</span><span lang="ru">Гражданские и коммерческие споры</span></li><li><span lang="en">Labour and employment disputes</span><span lang="ru">Трудовые споры</span></li><li><span lang="en">Recognition of foreign judgments and awards</span><span lang="ru">Признание иностранных и арбитражных решений</span></li><li><span lang="en">Enforcement proceedings</span><span lang="ru">Исполнительное производство</span></li><li><span lang="en">Mediation and settlement</span><span lang="ru">Медиация и примирительные процедуры</span></li><li><span lang="en">Representation during state inspections</span><span lang="ru">Сопровождение проверок госорганов</span></li></ul></div></div>
+      </div><div class="bio" role="tabpanel" id="bio-saya" aria-labelledby="tab-saya" hidden>
+        <aside><img src="assets/img/tyrtykayeva.jpg" loading="lazy" alt=""><h3><span lang="en">Saya Tyrtykayeva</span><span lang="ru">Тыртыкаева Сая Женисовна</span></h3><p class="ru"><span lang="ru">Saya Tyrtykayeva</span></p><p class="role"><span lang="en">Corporate, Banking &amp; Finance</span><span lang="ru">Корпоративное, банковское и финансовое право</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></aside>
+        <div class="body"><h4><span lang="en">Credentials &amp; track record</span><span lang="ru">Квалификация и опыт</span></h4><ul><li><span lang="en">24 years' experience, 20+ as a practising lawyer — director of legal departments</span><span lang="ru">24 года общего стажа, свыше 20 лет по специальности — директор юридических департаментов</span></li><li><span lang="en">Head of Legal, Tsesnabank JSC — credit portfolio sales, bank reorganisation, share buy-outs</span><span lang="ru">Директор юрдепартамента АО «Цеснабанк» — продажа кредитного портфеля, реорганизация банка, выкуп акций</span></li><li><span lang="en">Head of Legal, Astana branch, Halyk Bank of Kazakhstan (2004–2012)</span><span lang="ru">Начальник юридического управления Астанинского филиала АО «Народный Банк Казахстана» (2004–2012)</span></li><li><span lang="en">Director of legal, Kazakhstan Engineering NC JSC and Kazakhstan Housing Company JSC</span><span lang="ru">Директор департамента правового обеспечения АО «НК «Казахстан Инжиниринг» и АО «Казахстанская жилищная компания»</span></li><li><span lang="en">Member, Adilzanger Chamber of Legal Consultants; certified mediator; notary licence</span><span lang="ru">Член Палаты юридических консультантов Adilzanger; сертифицированный медиатор; лицензия нотариуса</span></li><li><span lang="en">Karaganda State University, Law (honours); Ryskulov Economic University, Finance</span><span lang="ru">КарГУ им. Е. А. Букетова, «Правоведение» (с отличием); КазЭУ им. Т. Рыскулова, «Финансы»</span></li></ul>
+        <div class="box"><h5><span lang="en">What she handles for foreign clients</span><span lang="ru">Что ведёт для иностранных клиентов</span></h5><ul><li><span lang="en">Corporate structuring and group holdings</span><span lang="ru">Корпоративное структурирование, холдинги</span></li><li><span lang="en">M&amp;A, share purchases and buy-outs</span><span lang="ru">M&amp;A, купля-продажа и выкуп долей</span></li><li><span lang="en">Banking, credit and security documentation</span><span lang="ru">Банковская, кредитная, залоговая документация</span></li><li><span lang="en">Contract drafting and transaction support</span><span lang="ru">Договорная работа и сопровождение сделок</span></li><li><span lang="en">Distressed debt, restructuring, bankruptcy</span><span lang="ru">Проблемные долги и банкротство</span></li><li><span lang="en">Claims and pre-litigation work</span><span lang="ru">Претензионно-исковая работа</span></li><li><span lang="en">Corporate governance and board matters</span><span lang="ru">Корпоративное управление</span></li><li><span lang="en">Legal due diligence</span><span lang="ru">Правовой due diligence</span></li></ul></div></div>
+      </div><div class="bio" role="tabpanel" id="bio-aliya" aria-labelledby="tab-aliya" hidden>
+        <aside><img src="assets/img/zhundibayeva.jpg" loading="lazy" alt=""><h3><span lang="en">Aliya Zhundibayeva</span><span lang="ru">Жундибаева Алия Дауылбаевна</span></h3><p class="ru"><span lang="ru">Aliya Zhundibayeva</span></p><p class="role"><span lang="en">Migration &amp; Corporate Setup</span><span lang="ru">Миграция и регистрация бизнеса</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></aside>
+        <div class="body"><h4><span lang="en">Credentials &amp; track record</span><span lang="ru">Квалификация и опыт</span></h4><ul><li><span lang="en">26 years in law; director of Alim-Consulting LLP since 2013 — business support, transactions, visas, migration</span><span lang="ru">26 лет стажа; директор ТОО «Алим-Консалтинг» с 2013 года — сопровождение бизнеса, сделки, визы и миграция</span></li><li><span lang="en">Mabetex Group Kazakhstan (2001–2012) — lawyer, head of the HR and visa support department</span><span lang="ru">Mabetex Group Kazakhstan (2001–2012) — юрист, руководитель отдела кадрового и визового сопровождения</span></li><li><span lang="en">Member of the Chamber of Legal Consultants of the Republic of Kazakhstan; certified mediator</span><span lang="ru">Член Палаты юридических консультантов РК; сертифицированный медиатор</span></li><li><span lang="en">Work permits for foreign specialists; B2, B3, A5, C3, C5 business-immigrant and investor visas</span><span lang="ru">Разрешения на привлечение ИРС; визы B2, B3, A5, C3, C5 (бизнес-иммигрант) и инвесторские визы</span></li><li><span lang="en">Company formation with non-resident founders, AIFC registration, BIN/IIN; civil and administrative cases</span><span lang="ru">Регистрация ТОО с участием нерезидентов, МФЦА, БИН и ИИН; гражданские и административные дела</span></li><li><span lang="en">Karaganda State University, Law (honours); two years lecturing at L. N. Gumilyov ENU</span><span lang="ru">КарГУ им. Е. А. Букетова, «Правоведение» (с отличием); 2 года преподавания в ЕНУ им. Л. Н. Гумилёва</span></li></ul>
+        <div class="box"><h5><span lang="en">What she handles for foreign clients</span><span lang="ru">Что ведёт для иностранных клиентов</span></h5><ul><li><span lang="en">Business registration and support in Kazakhstan</span><span lang="ru">Регистрация и сопровождение бизнеса в РК</span></li><li><span lang="en">Foreign workforce — work permits</span><span lang="ru">Привлечение ИРС (разрешения на работу)</span></li><li><span lang="en">Visa and migration support</span><span lang="ru">Визовая и миграционная поддержка</span></li><li><span lang="en">AIFC company registration</span><span lang="ru">Регистрация компаний в МФЦА</span></li><li><span lang="en">Contract work</span><span lang="ru">Договорная работа</span></li><li><span lang="en">Transaction support</span><span lang="ru">Сопровождение сделок</span></li><li><span lang="en">HR and labour-law support</span><span lang="ru">Кадровое и трудовое сопровождение</span></li></ul></div></div>
+      </div><div class="bio" role="tabpanel" id="bio-aigul" aria-labelledby="tab-aigul" hidden>
+        <aside><img src="assets/img/bulambayeva.jpg" loading="lazy" alt=""><h3><span lang="en">Aigul Bulambayeva</span><span lang="ru">Буламбаева Айгуль Айдархановна</span></h3><p class="ru"><span lang="ru">Aigul Bulambayeva</span></p><p class="role"><span lang="en">Accounting &amp; Tax</span><span lang="ru">Бухгалтерский и налоговый учёт</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></aside>
+        <div class="body"><h4><span lang="en">Credentials &amp; track record</span><span lang="ru">Квалификация и опыт</span></h4><ul><li><span lang="en">Certified Professional Accountant of the RK (certificate No. 0003114, 2020); in accounting since 2008</span><span lang="ru">Профессиональный бухгалтер РК (сертификат № 0003114, 2020); в бухгалтерии с 2008 года</span></li><li><span lang="en">DataNomika (since 2018) — outsourced accounting for YILDIRIM Holding, Shatura Astana, AEST Building, MDCloud and others</span><span lang="ru">DataNomika (с 2018) — бухгалтерский аутсорсинг: YILDIRIM Holding, «Шатура Астана», «АЭСТ Билдинг», «MDCloud» и др.</span></li><li><span lang="en">Full accounting and tax cycle — fixed assets, inventory, payroll, sales, foreign trade</span><span lang="ru">Полный бухгалтерский и налоговый учёт — ОС, ТМЦ, зарплата, реализация, ВЭД</span></li><li><span lang="en">Chief accountant, Mabetex Group, Astana (2011–2018) — payroll for 500+ staff</span><span lang="ru">Главный бухгалтер Mabetex Group, Астана (2011–2018) — зарплата на 500+ человек</span></li><li><span lang="en">Tax, National Bank and statistical reporting; VAT refunds; inspections passed; tax burden cut 15% lawfully</span><span lang="ru">Налоговая и статотчётность, отчёты в Нацбанк; возврат НДС; проверки; снижение налоговой нагрузки на 15%</span></li><li><span lang="en">1C and e-document workflow, e-invoicing, Virtual Warehouse; Kurgan State Agricultural Academy, Economics</span><span lang="ru">1С и ЭДО, ИС ЭСФ, Виртуальный склад; КГСХА им. Т. С. Мальцева, экономический факультет</span></li></ul>
+        <div class="box"><h5><span lang="en">What she handles for foreign clients</span><span lang="ru">Что ведёт для иностранных клиентов</span></h5><ul><li><span lang="en">Setting up the books for a new TOO</span><span lang="ru">Постановка учёта нового ТОО</span></li><li><span lang="en">Tax returns and statutory reporting</span><span lang="ru">Налоговые декларации и отчётность</span></li><li><span lang="en">Payroll and payroll taxes</span><span lang="ru">Зарплата и налоги с ФОТ</span></li><li><span lang="en">E-invoicing and Virtual Warehouse</span><span lang="ru">ЭСФ и Виртуальный склад</span></li><li><span lang="en">Import and export accounting, EAEU</span><span lang="ru">Учёт импорта и экспорта, ЕАЭС</span></li><li><span lang="en">VAT refunds</span><span lang="ru">Возврат НДС</span></li><li><span lang="en">National Bank and statistics filings</span><span lang="ru">Отчётность в Нацбанк и статистику</span></li><li><span lang="en">Support during tax inspections</span><span lang="ru">Сопровождение налоговых проверок</span></li></ul></div></div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ============ COOPERATION ============ -->
-<section class="section section--dark" id="cooperation">
+<section id="services">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="coop.eyebrow">Для партнёров</span>
-      <h2 class="section__title" data-i18n="coop.title">Предлагаемая модель сотрудничества</h2>
-    </div>
-    <div class="coop">
-      <div class="coop__card reveal"><span class="coop__num">01</span>
-        <h3 data-i18n="coop.1t">Направление клиентов</h3>
-        <p data-i18n="coop.1d">Ваши клиенты с казахстанскими вопросами направляются нам; мы выступаем казахстанским советником под собственными лицензиями и ответственностью.</p></div>
-      <div class="coop__card reveal"><span class="coop__num">02</span>
-        <h3 data-i18n="coop.2t">Совместное ведение проектов</h3>
-        <p data-i18n="coop.2d">Вы ведёте право своей страны, мы — казахстанское. Один совместный результат, один график, один отчёт клиенту.</p></div>
-      <div class="coop__card reveal"><span class="coop__num">03</span>
-        <h3 data-i18n="coop.3t">Взаимность</h3>
-        <p data-i18n="coop.3d">Наших клиентов с вопросами в вашей юрисдикции направляем вам. Готовы обсудить взаимную эксклюзивность на начальный срок.</p></div>
-      <div class="coop__card reveal"><span class="coop__num">04</span>
-        <h3 data-i18n="coop.4t">Коммерческие условия</h3>
-        <p data-i18n="coop.4d">По согласованию: вознаграждение за направление клиента либо прямой договор по согласованным ставкам. Клиент не платит дважды.</p></div>
-    </div>
-    <p class="coop__note reveal" data-i18n="coop.note">Мы открыты к любой структуре сотрудничества — включая эксклюзивное казахстанское подразделение под совместным брендом.</p>
+    <div class="head"><p class="eyebrow"><span lang="en">Services</span><span lang="ru">Услуги</span></p><h2 class="h2"><span lang="en">One integrated offering</span><span lang="ru">Единый пакет услуг</span></h2></div>
+    <div class="svc"><article><span class="num">01</span><h3><span lang="en">Market entry &amp; company setup</span><span lang="ru">Регистрация бизнеса</span></h3><p><span lang="en">TOO and AIFC entities, BIN, tax regime, corporate documents, bank account, branches and representative offices.</span><span lang="ru">ТОО и компании МФЦА, БИН, налоговый режим, корпоративные документы, счёт, филиалы и представительства.</span></p></article><article><span class="num">02</span><h3><span lang="en">Migration &amp; work permits</span><span lang="ru">Миграция и разрешения на работу</span></h3><p><span lang="en">Foreign-specialist permits, business-immigrant and investor visas, migration notifications, IIN, invitations.</span><span lang="ru">Разрешения на ИРС, визы бизнес-иммигранта и инвестора, уведомления, ИИН, приглашения.</span></p></article><article><span class="num">03</span><h3><span lang="en">Contracts &amp; transactions</span><span lang="ru">Договоры и сделки</span></h3><p><span lang="en">Drafting and review under Kazakh law, supply and construction contracts, M&amp;A, share transfers, security.</span><span lang="ru">Договоры по праву РК, поставка и подряд, M&amp;A, отчуждение долей, залоговая документация.</span></p></article><article><span class="num">04</span><h3><span lang="en">Disputes &amp; criminal defence</span><span lang="ru">Споры и уголовная защита</span></h3><p><span lang="en">All judicial instances, pre-trial settlement, enforcement of foreign judgments and awards, criminal defence.</span><span lang="ru">Все инстанции, досудебное урегулирование, признание иностранных и арбитражных решений, уголовная защита.</span></p></article><article><span class="num">05</span><h3><span lang="en">Regulatory &amp; compliance</span><span lang="ru">Регуляторика и комплаенс</span></h3><p><span lang="en">Licensing, industry regulators, state inspections, AML and anti-corruption compliance, labour audits.</span><span lang="ru">Лицензирование, отраслевые регуляторы, проверки, ПОД/ФТ и антикоррупционный комплаенс, трудовой аудит.</span></p></article><article><span class="num">06</span><h3><span lang="en">Accounting &amp; tax</span><span lang="ru">Бухгалтерия и налоги</span></h3><p><span lang="en">Books set up and kept, tax returns, e-invoices and virtual warehouse, import and export, non-resident settlements.</span><span lang="ru">Постановка и ведение учёта, декларации, ЭСФ и виртуальный склад, ВЭД, расчёты с нерезидентами.</span></p></article><article><span class="num">07</span><h3><span lang="en">Payroll &amp; HR records</span><span lang="ru">Зарплата и кадры</span></h3><p><span lang="en">Payroll, payroll taxes and contributions, HR documentation, reporting on foreign employees.</span><span lang="ru">Расчёт зарплаты, налоги и отчисления с ФОТ, кадровое делопроизводство, отчётность по иностранцам.</span></p></article><article><span class="num">08</span><h3><span lang="en">Ongoing support</span><span lang="ru">Постоянное сопровождение</span></h3><p><span lang="en">Retainer for the client's Kazakh company: day-to-day advice, corporate calendar, financial and statistical reporting.</span><span lang="ru">Абонентское обслуживание казахстанской компании клиента: консультации, корпоративный календарь, отчётность.</span></p></article></div>
   </div>
 </section>
 
-<!-- ============ PROCESS ============ -->
-<section class="section" id="process">
+<section class="dark" id="model">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="process.eyebrow">Процесс</span>
-      <h2 class="section__title" data-i18n="process.title">Как ведётся проект</h2>
-    </div>
-    <ol class="process" style="list-style:none;margin:0;padding:0">
-      <li class="step reveal"><span class="step__num">1</span>
-        <div class="step__card"><h3 data-i18n="process.1t">Направление</h3><p data-i18n="process.1d">Получаем вопрос и цель клиента.</p><span class="step__time" data-i18n="process.1w">24 часа</span></div></li>
-      <li class="step reveal"><span class="step__num">2</span>
-        <div class="step__card"><h3 data-i18n="process.2t">Проверка конфликта</h3><p data-i18n="process.2d">Проверяем конфликт и письменно подтверждаем готовность.</p><span class="step__time" data-i18n="process.2w">24 часа</span></div></li>
-      <li class="step reveal"><span class="step__num">3</span>
-        <div class="step__card"><h3 data-i18n="process.3t">Объём и стоимость</h3><p data-i18n="process.3d">Меморандум об объёме, график и предложение на английском.</p><span class="step__time" data-i18n="process.3w">3 дня</span></div></li>
-      <li class="step reveal"><span class="step__num">4</span>
-        <div class="step__card"><h3 data-i18n="process.4t">Договор</h3><p data-i18n="process.4d">Договор с клиентом либо с вашей фирмой.</p><span class="step__time" data-i18n="process.4w">при подписании</span></div></li>
-      <li class="step reveal"><span class="step__num">5</span>
-        <div class="step__card"><h3 data-i18n="process.5t">Исполнение</h3><p data-i18n="process.5d">Ведёт конкретный партнёр, без передачи на сторону.</p><span class="step__time" data-i18n="process.5w">по графику</span></div></li>
-      <li class="step reveal"><span class="step__num">6</span>
-        <div class="step__card"><h3 data-i18n="process.6t">Отчётность</h3><p data-i18n="process.6d">Отчёты по этапам на английском с документами.</p><span class="step__time" data-i18n="process.6w">постоянно</span></div></li>
-    </ol>
-    <p class="langs reveal" data-i18n="process.langs">Рабочие языки: английский — с партнёрскими фирмами · казахский и русский — в судах и госорганах РК · перевод на ваш язык по запросу.</p>
+    <div class="head"><p class="eyebrow"><span lang="en">For law firms</span><span lang="ru">Для юридических фирм</span></p><h2 class="h2"><span lang="en">Proposed cooperation model</span><span lang="ru">Предлагаемая модель сотрудничества</span></h2></div>
+    <div class="model"><article><div class="num">01</div><h3><span lang="en">Referral partnership</span><span lang="ru">Направление клиентов</span></h3><p><span lang="en">Your clients with Kazakh matters are referred to us; we act as Kazakh counsel of record under our own licences and professional liability.</span><span lang="ru">Ваши клиенты с казахстанскими вопросами направляются нам; мы выступаем казахстанским советником под собственными лицензиями и ответственностью.</span></p></article><article><div class="num">02</div><h3><span lang="en">Cross-border co-counsel</span><span lang="ru">Совместное ведение проектов</span></h3><p><span lang="en">You lead your home law, we lead Kazakh law. One joint work product, one timetable, one report to the client.</span><span lang="ru">Вы ведёте право своей страны, мы — казахстанское. Один совместный результат, один график, один отчёт клиенту.</span></p></article><article><div class="num">03</div><h3><span lang="en">Reciprocity</span><span lang="ru">Взаимность</span></h3><p><span lang="en">Our Kazakh clients with matters in your jurisdiction are referred to you. Open to mutual exclusivity for a defined initial term.</span><span lang="ru">Наших клиентов с вопросами в вашей юрисдикции направляем вам. Готовы обсудить взаимную эксклюзивность на начальный срок.</span></p></article><article><div class="num">04</div><h3><span lang="en">Commercial terms</span><span lang="ru">Коммерческие условия</span></h3><p><span lang="en">To be agreed: a referral fee on introduced mandates, or direct engagement on an agreed rate card. The client is never charged twice.</span><span lang="ru">По согласованию: вознаграждение за направление клиента либо прямой договор по согласованным ставкам. Клиент не платит дважды.</span></p></article></div>
+    <p class="model-note"><span lang="en">We are open to any partnership structure — including an exclusive Kazakhstan desk operating under a co-branded name.</span><span lang="ru">Мы открыты к любой структуре сотрудничества — включая эксклюзивное казахстанское подразделение под совместным брендом.</span></p>
   </div>
 </section>
 
-<!-- ============ WHY ============ -->
-<section class="section section--mist" id="why">
+<section id="process">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="why.eyebrow">Преимущества</span>
-      <h2 class="section__title" data-i18n="why.title">Почему эта команда</h2>
-    </div>
-    <div class="why">
-      <div class="why__item reveal"><span class="check">✓</span>
-        <h3 data-i18n="why.1t">Работу ведут партнёры</h3>
-        <p data-i18n="why.1d">Каждый мандат исполняет конкретный партнёр с опытом 20+ лет. Работа не передаётся младшим сотрудникам или сторонней фирме.</p></div>
-      <div class="why__item reveal"><span class="check">✓</span>
-        <h3 data-i18n="why.2t">Суд, миграция, корпоративное право и бухгалтерия в одном соглашении</h3>
-        <p data-i18n="why.2d">Иностранному клиенту редко нужно только одно из четырёх. Одно соглашение — доступ ко всем компетенциям.</p></div>
-      <div class="why__item reveal"><span class="check">✓</span>
-        <h3 data-i18n="why.3t">Опыт по другую сторону стола</h3>
-        <p data-i18n="why.3d">Бывший судья, бывший руководитель юрслужб двух банков и госхолдинга, практик миграционного права, еженедельно работающий с комиссиями.</p></div>
-      <div class="why__item reveal"><span class="check">✓</span>
-        <h3 data-i18n="why.4t">Присутствие в обеих столицах</h3>
-        <p data-i18n="why.4d">Алматы — суды и бизнес; Астана — министерства, миграционная служба и МФЦА. Без командировочных надбавок и посредников.</p></div>
-      <div class="why__item reveal"><span class="check">✓</span>
-        <h3 data-i18n="why.5t">Готовность работать с клиентом из любой страны</h3>
-        <p data-i18n="why.5d">Отчётность на английском, фиксированный объём работ до начала, документы на государственных языках — не перевод.</p></div>
-    </div>
+    <div class="head"><p class="eyebrow"><span lang="en">Workflow</span><span lang="ru">Порядок работы</span></p><h2 class="h2"><span lang="en">How an engagement runs</span><span lang="ru">Как ведётся проект</span></h2></div>
+    <ol class="steps"><li><h3><span lang="en">Referral</span><span lang="ru">Направление</span></h3><p><span lang="en">We receive the matter and the client's objective.</span><span lang="ru">Получаем вопрос и цель клиента.</span></p><span class="t"><span lang="en">24 hours</span><span lang="ru">24 часа</span></span></li><li><h3><span lang="en">Conflict check</span><span lang="ru">Проверка конфликта</span></h3><p><span lang="en">We clear conflicts and confirm capacity in writing.</span><span lang="ru">Проверяем конфликт и письменно подтверждаем готовность.</span></p><span class="t"><span lang="en">24 hours</span><span lang="ru">24 часа</span></span></li><li><h3><span lang="en">Scope &amp; fee</span><span lang="ru">Объём и стоимость</span></h3><p><span lang="en">Scoping memo, timetable and fee proposal in English.</span><span lang="ru">Меморандум об объёме, график и предложение на английском.</span></p><span class="t"><span lang="en">3 days</span><span lang="ru">3 дня</span></span></li><li><h3><span lang="en">Engagement</span><span lang="ru">Договор</span></h3><p><span lang="en">Engagement letter with the client or with your firm.</span><span lang="ru">Договор с клиентом либо с вашей фирмой.</span></p><span class="t"><span lang="en">on signature</span><span lang="ru">при подписании</span></span></li><li><h3><span lang="en">Execution</span><span lang="ru">Исполнение</span></h3><p><span lang="en">Led by the named partner, never subcontracted out.</span><span lang="ru">Ведёт конкретный партнёр, без передачи на сторону.</span></p><span class="t"><span lang="en">per timetable</span><span lang="ru">по графику</span></span></li><li><h3><span lang="en">Reporting</span><span lang="ru">Отчётность</span></h3><p><span lang="en">Milestone reports in English with supporting documents.</span><span lang="ru">Отчёты по этапам на английском с документами.</span></p><span class="t"><span lang="en">continuous</span><span lang="ru">постоянно</span></span></li></ol>
+    <p class="langs"><span lang="en">Working languages: English with partner firms · Kazakh and Russian before Kazakh courts and state bodies · translation into your language on request.</span><span lang="ru">Рабочие языки: английский — с партнёрскими фирмами · казахский и русский — в судах и госорганах РК · перевод на ваш язык по запросу.</span></p>
   </div>
 </section>
 
-<!-- ============ NEXT STEPS ============ -->
-<section class="section" id="next">
+<section class="tint" id="why">
   <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow" data-i18n="next.eyebrow">Начало работы</span>
-      <h2 class="section__title" data-i18n="next.title">Предлагаемые следующие шаги</h2>
-    </div>
-    <div class="steps">
-      <div class="nstep reveal"><span class="nstep__num">1</span>
-        <div><h3 data-i18n="next.1t">Взаимное NDA</h3><p data-i18n="next.1d">Чтобы открыто обсуждать имена клиентов и детали дел.</p></div>
-        <span class="nstep__when" data-i18n="next.1w">Неделя 1</span></div>
-      <div class="nstep reveal"><span class="nstep__num">2</span>
-        <div><h3 data-i18n="next.2t">Соглашение о партнёрстве</h3><p data-i18n="next.2d">Объём, эксклюзивность, вознаграждение, конфликт интересов и конфиденциальность.</p></div>
-        <span class="nstep__when" data-i18n="next.2w">Недели 2–4</span></div>
-      <div class="nstep reveal"><span class="nstep__num">3</span>
-        <div><h3 data-i18n="next.3t">Два пилотных проекта</h3><p data-i18n="next.3d">Одна регистрация бизнеса, один спор или миграционный вопрос — проверка процесса от начала до конца.</p></div>
-        <span class="nstep__when" data-i18n="next.3w">Недели 4–12</span></div>
-      <div class="nstep reveal"><span class="nstep__num">4</span>
-        <div><h3 data-i18n="next.4t">Тарифы и стандарты обслуживания</h3><p data-i18n="next.4d">Фиксированные ставки за типовую работу, почасовые — за индивидуальную, сроки реагирования.</p></div>
-        <span class="nstep__when" data-i18n="next.4w">вместе с соглашением</span></div>
-      <div class="nstep reveal"><span class="nstep__num">5</span>
-        <div><h3 data-i18n="next.5t">Взаимный визит</h3><p data-i18n="next.5d">Рабочая сессия в вашем городе или Алматы, совместный семинар для клиентов, выходящих на Казахстан.</p></div>
-        <span class="nstep__when" data-i18n="next.5w">в удобное время</span></div>
-    </div>
-    <p class="steps__note reveal" data-i18n="next.note">Будем рады работать на основе вашего типового шаблона партнёрского соглашения.</p>
+    <div class="head"><p class="eyebrow"><span lang="en">Why us</span><span lang="ru">Почему мы</span></p><h2 class="h2"><span lang="en">Why this team</span><span lang="ru">Почему эта команда</span></h2></div>
+    <div class="why"><div><i aria-hidden="true">✓</i><h3><span lang="en">Partners do the work</span><span lang="ru">Работу ведут партнёры</span></h3><p><span lang="en">Every mandate is executed by a named partner with 20+ years of practice. Nothing is subcontracted to junior staff or another firm.</span><span lang="ru">Каждый мандат исполняет конкретный партнёр с опытом 20+ лет. Работа не передаётся младшим сотрудникам или сторонней фирме.</span></p></div><div><i aria-hidden="true">✓</i><h3><span lang="en">Court, migration, corporate and accounting in one agreement</span><span lang="ru">Суд, миграция, корпоративное право и бухгалтерия в одном соглашении</span></h3><p><span lang="en">A foreign client rarely needs only one of the four. One agreement gives access to the whole capability.</span><span lang="ru">Иностранному клиенту редко нужно только одно из четырёх. Одно соглашение — доступ ко всем компетенциям.</span></p></div><div><i aria-hidden="true">✓</i><h3><span lang="en">Experience from the other side of the table</span><span lang="ru">Опыт по другую сторону стола</span></h3><p><span lang="en">A former judge, a former head of legal at two banks and a state holding, and a migration practitioner who files with the commissions weekly.</span><span lang="ru">Бывший судья, бывший руководитель юрслужб двух банков и госхолдинга, практик миграционного права, еженедельно работающий с комиссиями.</span></p></div><div><i aria-hidden="true">✓</i><h3><span lang="en">Present in both capitals</span><span lang="ru">Присутствие в обеих столицах</span></h3><p><span lang="en">Almaty for courts and commerce; Astana for ministries, the migration service and the AIFC. No travel surcharge, no local agent.</span><span lang="ru">Алматы — суды и бизнес; Астана — министерства, миграционная служба и МФЦА. Без командировочных надбавок и посредников.</span></p></div><div><i aria-hidden="true">✓</i><h3><span lang="en">Built for foreign clients of any origin</span><span lang="ru">Готовность работать с клиентом из любой страны</span></h3><p><span lang="en">English-language reporting, fixed scoping before work starts, documents drafted natively in the state languages — not translated.</span><span lang="ru">Отчётность на английском, фиксированный объём работ до начала, документы на государственных языках — не перевод.</span></p></div></div>
   </div>
 </section>
 
-<!-- ============ CONTACTS ============ -->
-<section class="section section--dark contacts-section" id="contacts">
+<section id="next">
   <div class="wrap">
-    <div class="section__head reveal" style="position:relative">
-      <span class="eyebrow" data-i18n="contacts.eyebrow">Связь</span>
-      <h2 class="section__title" data-i18n="contacts.title">Контакты</h2>
-    </div>
+    <div class="head"><p class="eyebrow"><span lang="en">Getting started</span><span lang="ru">С чего начать</span></p><h2 class="h2"><span lang="en">Proposed next steps</span><span lang="ru">Предлагаемые следующие шаги</span></h2></div>
+    <ol class="next"><li><h3><span lang="en">Mutual NDA</span><span lang="ru">Взаимное NDA</span></h3><p><span lang="en">So client names and matter details can be discussed openly.</span><span lang="ru">Чтобы открыто обсуждать имена клиентов и детали дел.</span></p><span class="t"><span lang="en">Week 1</span><span lang="ru">Неделя 1</span></span></li><li><h3><span lang="en">Partnership / referral agreement</span><span lang="ru">Соглашение о партнёрстве</span></h3><p><span lang="en">Scope, exclusivity, fee mechanism, conflict and confidentiality rules.</span><span lang="ru">Объём, эксклюзивность, вознаграждение, конфликт интересов и конфиденциальность.</span></p><span class="t"><span lang="en">Weeks 2–4</span><span lang="ru">Недели 2–4</span></span></li><li><h3><span lang="en">Two pilot mandates</span><span lang="ru">Два пилотных проекта</span></h3><p><span lang="en">One corporate setup, one dispute or migration matter — to test the workflow end to end.</span><span lang="ru">Одна регистрация бизнеса, один спор или миграционный вопрос — проверка процесса от начала до конца.</span></p><span class="t"><span lang="en">Weeks 4–12</span><span lang="ru">Недели 4–12</span></span></li><li><h3><span lang="en">Rate card and service levels</span><span lang="ru">Тарифы и стандарты обслуживания</span></h3><p><span lang="en">Fixed fees for standard work, hourly for bespoke, agreed response times.</span><span lang="ru">Фиксированные ставки за типовую работу, почасовые — за индивидуальную, сроки реагирования.</span></p><span class="t"><span lang="en">with the agreement</span><span lang="ru">вместе с соглашением</span></span></li><li><h3><span lang="en">Mutual visit</span><span lang="ru">Взаимный визит</span></h3><p><span lang="en">A working session in your city or Almaty, with a joint seminar for Kazakhstan-bound clients.</span><span lang="ru">Рабочая сессия в вашем городе или Алматы, совместный семинар для клиентов, выходящих на Казахстан.</span></p><span class="t"><span lang="en">at your convenience</span><span lang="ru">в удобное время</span></span></li></ol>
+    <p class="note"><span lang="en">We would be glad to work from your standard partnership template.</span><span lang="ru">Будем рады работать на основе вашего типового шаблона партнёрского соглашения.</span></p>
+  </div>
+</section>
+
+<section class="dark" id="contacts">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow"><span lang="en">Get in touch</span><span lang="ru">Свяжитесь с нами</span></p><h2 class="h2"><span lang="en">Contacts</span><span lang="ru">Контакты</span></h2><p class="lead"><span lang="en">We look forward to building the Kazakhstan practice together.</span><span lang="ru">Будем рады вместе развивать практику в Казахстане.</span></p></div>
     <div class="contacts">
-
-      <div class="contact reveal">
-        <img class="avatar" src="assets/img/ryspekova.jpg" alt="" loading="lazy" width="78" height="78">
-        <div>
-          <h3 data-i18n="p.ryspekova.full">Рыспекова Бибигуль Казымовна</h3>
-          <p class="role" data-i18n="p.ryspekova.role">Судебная работа и уголовная защита</p>
-          <p class="city" data-i18n="contacts.almaty">Алматы · работаем по всей Республике Казахстан</p>
+      <div class="c">
+        <img class="ph" src="assets/img/ryspekova.jpg" loading="lazy" alt="Bibigul Ryspekova">
+        <div><h3><span lang="en">Bibigul Ryspekova</span><span lang="ru">Рыспекова Бибигуль Казымовна</span></h3><p class="role"><span lang="en">Litigation &amp; Criminal Defence</span><span lang="ru">Судебная работа и уголовная защита</span></p><p class="city"><span lang="en">Almaty · Practising across the Republic of Kazakhstan</span><span lang="ru">Алматы · Работаем по всей Республике Казахстан</span></p></div>
+        <div class="lines">
+          <div class="line"><span class="v">ryspekova.bibigul@gmail.com</span><button class="copy" type="button" data-copy="ryspekova.bibigul@gmail.com"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
+          <div class="line"><span class="v">+7 777 805 74 98</span><button class="copy" type="button" data-copy="+77778057498"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
         </div>
-        <div class="contact__links">
-          <a href="mailto:ryspekova.bibigul@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>ryspekova.bibigul@gmail.com</a>
-          <a href="tel:+77778057498"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+7 777 805 74 98</a>
+        <div class="qrw"></div>
+      </div><div class="c">
+        <img class="ph" src="assets/img/tyrtykayeva.jpg" loading="lazy" alt="Saya Tyrtykayeva">
+        <div><h3><span lang="en">Saya Tyrtykayeva</span><span lang="ru">Тыртыкаева Сая Женисовна</span></h3><p class="role"><span lang="en">Corporate, Banking &amp; Finance</span><span lang="ru">Корпоративное, банковское и финансовое право</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></div>
+        <div class="lines">
+          <div class="line"><span class="v">s.taa031199@gmail.com</span><button class="copy" type="button" data-copy="s.taa031199@gmail.com"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
+          <div class="line"><span class="v">+7 701 524 86 85</span><button class="copy" type="button" data-copy="+77015248685"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
         </div>
-        <div></div>
+        <div class="qrw"><div class="qr"><img src="assets/img/qr-wechat-tyrtykayeva.png" loading="lazy" alt="WeChat QR — Saya Tyrtykayeva"><small>WECHAT</small></div></div>
+      </div><div class="c">
+        <img class="ph" src="assets/img/zhundibayeva.jpg" loading="lazy" alt="Aliya Zhundibayeva">
+        <div><h3><span lang="en">Aliya Zhundibayeva</span><span lang="ru">Жундибаева Алия Дауылбаевна</span></h3><p class="role"><span lang="en">Migration &amp; Corporate Setup</span><span lang="ru">Миграция и регистрация бизнеса</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></div>
+        <div class="lines">
+          <div class="line"><span class="v">alim.consulting77@gmail.com</span><button class="copy" type="button" data-copy="alim.consulting77@gmail.com"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
+          <div class="line"><span class="v">+7 702 191 58 43</span><button class="copy" type="button" data-copy="+77021915843"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
+        </div>
+        <div class="qrw"><div class="qr"><img src="assets/img/qr-wechat-zhundibayeva.png" loading="lazy" alt="WeChat QR — Aliya Zhundibayeva"><small>WECHAT</small></div></div>
+      </div><div class="c">
+        <img class="ph" src="assets/img/bulambayeva.jpg" loading="lazy" alt="Aigul Bulambayeva">
+        <div><h3><span lang="en">Aigul Bulambayeva</span><span lang="ru">Буламбаева Айгуль Айдархановна</span></h3><p class="role"><span lang="en">Accounting &amp; Tax</span><span lang="ru">Бухгалтерский и налоговый учёт</span></p><p class="city"><span lang="en">Astana · Practising across the Republic of Kazakhstan</span><span lang="ru">Астана · Работаем по всей Республике Казахстан</span></p></div>
+        <div class="lines">
+          <div class="line"><span class="v">bulambaeva@mail.ru</span><button class="copy" type="button" data-copy="bulambaeva@mail.ru"><span lang="en">Copy</span><span lang="ru">Копировать</span></button></div>
+          <div class="line"><span class="v">+7 777 182 28 69</span><button class="copy" type="button" data-copy="+77771822869"><span lang="en">Copy</span><span lang="ru">Копировать</span></button><span class="tg">TELEGRAM</span></div>
+        </div>
+        <div class="qrw"></div>
       </div>
-
-      <div class="contact reveal">
-        <img class="avatar" src="assets/img/tyrtykayeva.jpg" alt="" loading="lazy" width="78" height="78">
-        <div>
-          <h3 data-i18n="p.tyrtykayeva.full">Тыртыкаева Сая Женисовна</h3>
-          <p class="role" data-i18n="p.tyrtykayeva.role">Корпоративное, банковское и финансовое право</p>
-          <p class="city" data-i18n="contacts.astana">Астана · работаем по всей Республике Казахстан</p>
-        </div>
-        <div class="contact__links">
-          <a href="mailto:s.taa031199@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>s.taa031199@gmail.com</a>
-          <a href="tel:+77015248685"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+7 701 524 86 85</a>
-        </div>
-        <div class="qr">
-          <button type="button" data-qr="assets/img/qr-wechat-tyrtykayeva.png" data-qr-name="p.tyrtykayeva.full" aria-label="WeChat QR"><img src="assets/img/qr-wechat-tyrtykayeva.png" alt="WeChat QR" loading="lazy"></button>
-          <span>WECHAT</span>
-        </div>
-      </div>
-
-      <div class="contact reveal">
-        <img class="avatar" src="assets/img/zhundibayeva.jpg" alt="" loading="lazy" width="78" height="78">
-        <div>
-          <h3 data-i18n="p.zhundibayeva.full">Жундибаева Алия Дауылбаевна</h3>
-          <p class="role" data-i18n="p.zhundibayeva.role">Миграция и регистрация бизнеса</p>
-          <p class="city" data-i18n="contacts.astana">Астана · работаем по всей Республике Казахстан</p>
-        </div>
-        <div class="contact__links">
-          <a href="mailto:alim.consulting77@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>alim.consulting77@gmail.com</a>
-          <a href="tel:+77021915843"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+7 702 191 58 43</a>
-        </div>
-        <div class="qr">
-          <button type="button" data-qr="assets/img/qr-wechat-zhundibayeva.png" data-qr-name="p.zhundibayeva.full" aria-label="WeChat QR"><img src="assets/img/qr-wechat-zhundibayeva.png" alt="WeChat QR" loading="lazy"></button>
-          <span>WECHAT</span>
-        </div>
-      </div>
-
-      <div class="contact reveal">
-        <img class="avatar" src="assets/img/bulambayeva.jpg" alt="" loading="lazy" width="78" height="78">
-        <div>
-          <h3 data-i18n="p.bulambayeva.full">Буламбаева Айгуль Айдархановна</h3>
-          <p class="role" data-i18n="p.bulambayeva.role">Бухгалтерский и налоговый учёт</p>
-          <p class="city" data-i18n="contacts.astana">Астана · работаем по всей Республике Казахстан</p>
-        </div>
-        <div class="contact__links">
-          <a href="mailto:bulambaeva@mail.ru"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>bulambaeva@mail.ru</a>
-          <a href="tel:+77771822869"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+7 777 182 28 69</a>
-          <a class="tg" href="https://t.me/+77771822869" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="m21 4-18 7 6 2 2 6 3-4 5 4z"/><path d="m9 13 12-9"/></svg>TELEGRAM</a>
-        </div>
-        <div></div>
-      </div>
-
-    </div>
-    <div class="contacts__close reveal">
-      <hr>
-      <p data-i18n="contacts.close">Будем рады вместе развивать практику в Казахстане.</p>
     </div>
   </div>
 </section>
-
 </main>
+<footer><div class="wrap"><span>© 2026 Silk Road Legal Alliance · <span lang="en">Almaty · Astana, Republic of Kazakhstan</span><span lang="ru">Алматы · Астана, Республика Казахстан</span></span><span><span lang="en">Each specialist practises independently under her own licence.</span><span lang="ru">Каждый специалист практикует самостоятельно по собственной лицензии.</span></span></div></footer>
 
-<footer class="footer">
-  <div class="wrap">
-    <span>© 2026 Silk Road Legal Alliance</span>
-    <span data-i18n="footer.city">Алматы · Астана, Республика Казахстан</span>
-  </div>
-</footer>
-
-<!-- Profile dialog -->
-<dialog class="profile" id="profile" aria-labelledby="profile-name">
-  <div class="profile__grid">
-    <div class="profile__side">
-      <img id="profile-photo" src="" alt="">
-      <h3 id="profile-name"></h3>
-      <p class="role" id="profile-role"></p>
-      <p class="city" id="profile-city"></p>
-    </div>
-    <div class="profile__body">
-      <h4 data-i18n="profile.creds">Квалификация и опыт</h4>
-      <ul class="creds" id="profile-creds"></ul>
-      <div class="handles">
-        <h5 data-i18n="profile.handles">Что ведёт для иностранных клиентов</h5>
-        <ul id="profile-handles"></ul>
-      </div>
-    </div>
-  </div>
-  <button class="profile__close" type="button" data-close aria-label="Закрыть">×</button>
-</dialog>
-
-<!-- QR dialog -->
-<dialog class="qr-dialog" id="qr-dialog">
-  <img id="qr-img" src="" alt="WeChat QR">
-  <p id="qr-name"></p>
-  <button class="btn btn--ink" type="button" data-close data-i18n="common.close">Закрыть</button>
-</dialog>
-
-<script src="js/main.js?v=2"></script>
+<script src="js/main.js?v=3"></script>
 </body>
 </html>
